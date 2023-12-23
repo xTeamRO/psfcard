@@ -9,3 +9,4 @@ app.get("/",(req,res)=>{
 app.get("*",(req,res)=>{
      res.send("<h2 style='text-align:center;'>page not found<h2>")
 })
+app.listen(8012,()=>{console.log("server running in port 8012")})
